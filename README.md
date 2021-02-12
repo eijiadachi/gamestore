@@ -12,7 +12,7 @@ Você deverá implementar testes de unidade para a função responsável por reg
     public Rental registerRental(User user, List<Game> games)
 
   
-O seu objetivo é implementar casos de testes executáveis compatíveis com o JUnit 4. Todos os testes devem empregar a `@Rule` do tipo `ErrorCollector` para realizar as assertivas e coletar e agregar as mensagens de erro.
+O seu objetivo é implementar casos de testes executáveis compatíveis com o JUnit 4. Todos os testes devem empregar a [`@Rule`](https://junit.org/junit4/javadoc/4.12/org/junit/rules/ErrorCollector.html) do tipo `ErrorCollector` para realizar as assertivas e coletar e agregar as mensagens de erro.
 
 Não é o seu objetivo implementar a lógica de negócio do método `RentalService.registerRental`. A implementação deste método contará como ponto extra, mas o critério para correção será binário: ou está 100% correto, ou está incorreto. Portanto, foque seus esforços na implementação dos testes. Para apoiar a criação dos testes, você deverá aplicar os critérios de particionamento em classes de equivalência e análise de valor limite. Também deverá produzir uma tabela de decisão para as condições e ações identidicadas a partir do enunciado das regras de negócio acima. As classes de equivalência, os valores limites e a tabela de decisão deverão estar num documento de texto com identificação do autor.
 
